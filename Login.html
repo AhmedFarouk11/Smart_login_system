@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/index.css">
+</head>
+
+<body>
+    <section id="Login-form" class="text-center">
+        <div class="container my-5 Login-form w-75 m-auto p-5">
+            <h2>Smart Login System</h2>
+
+            <div class="mb-3 mt-4">
+                <label for="UserEmail_inputLogin" class="form-label"></label>
+                <input type="email" class="form-control w-75 mx-auto bg-transparent input-placeholder text-white"
+                    id="UserEmail_inputLogin" placeholder="Enter your email">
+            </div>
+            <div>
+                <label for="UserPassword_inputLogin" class="form-label"></label>
+                <input type="password" id="UserPassword_inputLogin"
+                    class="form-control w-75 mx-auto bg-transparent input-placeholder text-white"
+                    aria-describedby="passwordHelpBlock" placeholder="Entere Your password">
+            </div>
+            <div id="PLoginSuccess" class="form-text text-success fs-6 fw-bolder w-75 m-auto mt-3 d-none">
+                Login Successfully
+            </div>
+            <div id="PLoginFaild" class="form-text text-danger fs-6 fw-bolder w-75 m-auto mt-3 d-none">
+                User Email Or Password is wrong
+            </div>
+            <button id="LoginBtn" class="w-75 my-4 loginhover btn">Login</button>
+            <p class="text-white">Don’t have an account?<span><a class="ms-2 text-white"
+                        href="Resgister.html" target="_self">Sign Up</a></span></p>
+        </div>
+    </section>
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/index.js"></script>
+</body>
+
+</html>

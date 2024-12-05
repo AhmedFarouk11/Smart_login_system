@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #24353f;
+}
+.Signup-form
+{
+    color: #17a2b8;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.Login-form
+{
+    color: #17a2b8;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.loginhover
+{
+    border: #17a2b8 1px solid;
+    color: #17a2b8;
+    transition: all 1s;
+}
+.signuphover
+{
+    border: #17a2b8 1px solid;
+    color: #17a2b8;
+    transition: all 1s;
+    background-color: transparent;
+}
+.input-placeholder::placeholder
+{
+    color: white;
+}
+.nav-barBox
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.homeContetnt
+{
+    color: #17a2b8;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    
+    
+}
+.loginhover:hover
+{
+    background-color: #17a2b8;
+    color: white;
+    border-color: #17a2b8;
+}
+.signuphover:hover
+{
+    background-color: #17a2b8;
+    color: white;
+    border-color: #17a2b8;
+}
+.Login-form p span a
+{
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.Login-form p span a:hover
+{
+    text-decoration: underline;
+}
+.Signup-form p span a
+{
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.Signup-form p span a:hover
+{
+    text-decoration: underline;
+}

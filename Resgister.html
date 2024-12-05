@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Redister</title>
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/index.css">
+</head>
+
+<body>
+    <section id="Signup-form" class="text-center">
+        <div class="container my-5 Signup-form w-75 m-auto p-5">
+            <h2>Smart Login System</h2>
+            <div class="mt-5">
+                <label for="UserName_input" class="form-label"></label>
+                <input type="text" class="form-control w-75 mx-auto bg-transparent input-placeholder text-white"
+                    id="UserName_input" placeholder="Enter user Name">
+                    <p id="PFailedalertName" class="w-75 mx-auto text-bg-danger text-white mt-2 d-none">Invalid username! It must be 3-50 characters long and can include lowercase letters, numbers, hyphens, or underscores.</p>
+            </div>
+            <div class="mt-3">
+                <label for="UserEmail_input" class="form-label"></label>
+                <input type="email" class="form-control w-75 mx-auto bg-transparent input-placeholder text-white"
+                    id="UserEmail_input" placeholder="Enter your email">
+                <p id="PFailedalertEmail" class="w-75 mx-auto text-bg-danger text-white mt-2 d-none">Invalid email address! Please enter a valid email format (e.g., example@mail.com).</p>
+            </div>
+            <div class="mt-3">
+                <label for="UserPassword_input" class="form-label"></label>
+                <input type="password" class="form-control w-75 mx-auto bg-transparent input-placeholder text-white"
+                    id="UserPassword_input" placeholder="Enter Your password">
+                <p id="PFailedalertPassword" class="w-75 mx-auto text-bg-danger text-white mt-2 d-none">Invalid password! It must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character.</p>
+            </div>
+            <div id="passwordWrongBlock" class="form-text text-danger fs-6 fw-bolder w-75 m-auto mt-3 d-none">
+                All inputs is required
+            </div>
+            <div id="passwordSuccessBlock" class="form-text text-success fs-6 fw-bolder w-75 m-auto mt-3 d-none">
+                Success
+            </div>
+            <div id="passwordExistBlock" class="form-text text-danger fs-6 fw-bolder w-75 m-auto mt-3 d-none">
+                User is alreadey exist
+            </div>
+            <button id="SignupBtn" class="w-75 my-4 signuphover btn">Sign up</button>
+            <p class="text-white">You have an account ?<span><a class="ms-2  text-white"
+                        href="Login.html" target="_self">Sign in</a></span></p>
+        </div>
+    </section>
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/index.js"></script>
+</body>
+
+</html>
